@@ -1,0 +1,50 @@
+html {
+    scroll-behavior: smooth;
+}
+
+h1 { 
+    font-family: "Overpass", sans-serif;
+    font-size: 30px; 
+    text-align: center;
+}
+
+a:hover {
+    transform: scale(1.1);
+    transition: 1.1s;
+    display: block;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px rgb(204, 255, 0) solid;
+    box-shadow: 1px 1px 25px 17px rgba(50, 255, 30, 0.7);
+    aspect-ratio: 1/1;
+}
+
+img.img1 {
+    filter: sepia();
+}
+
+img.img2 {
+    filter: invert(100%);
+}
+
+img.img3 {
+    filter: saturate(100000%);
+}
+
+#info {
+width: 100%;
+height: 300px;
+border: 1px solid rgba(0, 0, 0, 0);
+background-color: black;
+background-image: url(../images/trees1.webp);
+/* background: rgb(0,34,36);
+background: linear-gradient(90deg, rgb(9, 223, 198) 0%, rgb(72, 255, 0) 49%, rgba(251,255,0,1) 100%);   */
+}
+
+#info p {
+    color: white;
+}
