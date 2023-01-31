@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .flex-container {
+            display: flex;
+            background-color: rgb(255, 0, 119);
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .flex-container > div {
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            background-color: rgb(255, 0, 238);
+            font-size: 20px;
+            flex-grow: 1;
+        }
+
+        .flex-container > div > img {
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+<section class="flex-container">
+    <div id="box1">1</div>
+    <div id="box2">2</div>
+    <div id="box3"><img src="https://picsum.photos/seed/picsum/200/300?random=1"></img></div>
+    <div id="box4">4</div>
+    <div id="box5">5</div>
+    <div id="box6">6</div>
+    <div id="box7">7</div>
+    <div id="box8">8</div>
+</section>
+</body>
+</html>
